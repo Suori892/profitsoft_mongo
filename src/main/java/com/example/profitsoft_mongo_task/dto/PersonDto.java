@@ -7,6 +7,10 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.FieldDefaults;
 
+/**
+ * Dto for showing detailed info about person
+ * from peps collection by request
+ */
 @Builder
 @Getter
 @Setter

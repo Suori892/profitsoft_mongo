@@ -7,6 +7,9 @@ import lombok.Setter;
 import lombok.experimental.FieldDefaults;
 import org.springframework.data.mongodb.core.mapping.Field;
 
+/**
+ * Nested part of Person
+ */
 @Getter
 @Setter
 @FieldDefaults(level= AccessLevel.PRIVATE)

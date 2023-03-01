@@ -17,6 +17,9 @@ import org.springframework.data.mongodb.core.aggregation.Aggregation;
 import org.springframework.data.mongodb.core.aggregation.AggregationResults;
 import org.springframework.stereotype.Repository;
 
+/**
+ * Realisation of PersonRepositoryCustom interface
+ * */
 @Repository
 @RequiredArgsConstructor
 public class PersonRepositoryCustomImpl implements PersonRepositoryCustom {

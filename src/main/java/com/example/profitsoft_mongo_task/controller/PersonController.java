@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+/**
+ * Controller for interaction with mongodb
+ * which consist pep database with peps collection
+ */
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/v1/pep")

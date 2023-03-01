@@ -8,6 +8,9 @@ import lombok.ToString;
 import lombok.experimental.FieldDefaults;
 import org.springframework.data.mongodb.core.mapping.Field;
 
+/**
+ * Nested part of Person
+ */
 @Getter
 @Setter
 @ToString
