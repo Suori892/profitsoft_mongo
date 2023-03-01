@@ -1,23 +1,25 @@
 package com.example.profitsoft_mongo_task.dto;
 
 import com.example.profitsoft_mongo_task.data.Person;
+import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.experimental.FieldDefaults;
 
 @Builder
 @Getter
 @Setter
+@FieldDefaults(level= AccessLevel.PRIVATE)
 public class PersonDto {
-    private String id;
-    private String firstName;
-    private String lastName;
-    private String patronymic;
-    private String fullName;
-    private String dateOfBirth;
-    private String typeOfOfficial;
-    private boolean died;
-    private boolean isPep;
+     String firstName;
+     String lastName;
+     String patronymic;
+     String fullName;
+     String dateOfBirth;
+     String typeOfOfficial;
+     boolean died;
+     boolean isPep;
 
     public static PersonDto createPepDTO(Person person){
       return PersonDto.builder()
